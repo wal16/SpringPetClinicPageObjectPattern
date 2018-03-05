@@ -8,9 +8,15 @@ public class MainPage {
     @FindBy(xpath = "//*[@id='main-navbar']/ul/li[3]/a/span[2]")
     private WebElement clickOnFindOwnersbutton;
 
-    @FindBy(xpath = "//button[@type='submit']")
-    private WebElement FindOwnerbutton;
 
-    @FindBy(linkText = "//a[@href='/owners/1']")
-    private WebElement GeorgeFranklinName;
+
+
+    public void clickFindOwnersbutton()
+    {
+        clickOnFindOwnersbutton.click();
+    }
+
+
 }
+
+
