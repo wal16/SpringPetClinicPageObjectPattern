@@ -9,12 +9,17 @@ public class FindOwnerPage
     @FindBy(xpath = "//button[@type='submit']")
     private WebElement click0nFindOwnerbutton;
 
-    @FindBy(linkText = "//a[@href='/owners/1']")
-    private WebElement GeorgeFranklinName;
+    @FindBy(xpath = "//a[@href='/owners/1']")
+    private WebElement clickOnGeorgeFranklinName;
 
     public void clickFindOwnerbutton()
     {
         click0nFindOwnerbutton.click();
+    }
+
+    public void clickGeorgeFranklinPerson()
+    {
+        clickOnGeorgeFranklinName.click();
     }
 }
 

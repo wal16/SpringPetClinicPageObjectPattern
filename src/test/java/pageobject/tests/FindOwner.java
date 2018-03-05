@@ -40,6 +40,7 @@ public class FindOwner {
 
         mainPage.clickFindOwnersbutton();
         findOwnerPage.clickFindOwnerbutton();
+        findOwnerPage.clickGeorgeFranklinPerson();
 
     }
 
